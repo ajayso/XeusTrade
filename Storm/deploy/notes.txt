@@ -1,0 +1,8 @@
+
+1. Change the properties to set the parameters for zookeeper, topics ... 
+2. To deploy the xtrade storm commands
+storm jar storm-streaming/target/storm-streaming-1.0-SNAPSHOT.jar com.xtrade.streaming.impl.topologies.StockEventProcessorKafka /etc/storm_demo/config.properties
+3. Kafka topic creation
+bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic xtrade_mgr_single_stock_news
+./kafka-console-consumer.sh --zookeeper 127.0.0.1:2181 --topic xtrade_mgr_single_stock_news  --from-beginning
+
