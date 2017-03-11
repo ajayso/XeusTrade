@@ -19,5 +19,8 @@ As we go further in code we incorporate R models for fundamental stock predictio
 
 A Small Web front end which stiches all the pieces together and show how things work together.
 
+
+Documents folder https://drive.google.com/drive/folders/0B7-bv8NkexUcRUo2eExjV21vczg?usp=sharing
+
 Thank you,
 Ajay Solanki
